@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="makoのポートフォリオサイトです">
+  <!-- twitterカード -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@mako0105_web" />
+  <!-- OGP設定シェアされた時の見た目 -->
+  <meta property="og:url" content="https://github.com/mako0105/portfolio.git">
+  <meta property="og:type" content="wedsite">
+  <meta property="og:description" content="デイトラFirst課題ポートフォリオ">
+  <meta property="og:title" content="Mako's portfolio">
+  <meta property="og:img" content="imges/twitter-card.jpg">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/b22f75e7bc.js" crossorigin="anonymous"></script>
+  <!-- Googlefont -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <!-- リセットCSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Mako's portfolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="header-left">
+          <h1><a href="index.html"><img src="imges/mako-logo.jpg" alt="ロゴ"></a></h1>
+        </div>
+        <div class="header-right">
+          <ul class="header-list">
+            <li class="header-item"><a href="#about">ABOUT</a></li>
+            <li class="header-item"><a href="#service">SERVICE</a></li>
+            <li class="header-item"><a href="#works">WORKS</a></li>
+            <li class="header-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="top">
+    <div class="top-copy">
+      <h2 class="top-copy-title">Welcome!</h2>
+      <p class="top-copy-sub">webサイトの制作お受け致します</p>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">ABOUT</h2>
+      <div class="about-wrapper">
+        <div class="about-left">
+          <img src="imges/portfolio-3.jpg" alt="">
+        </div>
+        <div class="about-right">
+          <h3 class="about-title">まこ</h3>
+          <p class="about-text">千葉県在住<br>
+            ５０代の駆け出しエンジニアです。<br>
+            Webサイトデザイナーとして日々勉強中です。<br>
+            皆様の財産となるようなWebサイトを作成いたします。</p>
+          <a href="https://twitter.com/mako0105_web" class="sns"><i class="fab fa-twitter fa-2x fa-border"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service" id="service">
+    <div class="container service-wrapper">
+      <h2 class="section-title">service</h2>
+      <div class="service-box1">
+        <div class="service-box-inner">
+          <div class="service-text">
+            <p>LP制作 <span>30,000円〜</span><br>
+              納期目安<span>3週間以内</span><br></p>
+            <p>デザイン / コーディング込み<br>
+              レスポンシブ対応</p>
+          </div>
+          <div class="service-pc">
+            <img src="imges/pc.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="service-box2"></div>
+    </div>
+  </section>
+
+  <section class="works" id="works">
+    <div class="container ">
+      <h2 class="section-title">WORKS</h2>
+      <p class="works-text">制作実績の一部をご紹介します。</p>
+      <div class="works-wrapper">
+        <ul class="works-list">
+          <li class="works-item"><img src="imges/daytry1.png" alt=""></li>
+          <li class="works-item"><img src="imges/daytryBootstra.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="info">
+        <p>※お問い合わせフォームは現在改修中です。<br>
+          ご用件のある方はTwitterDMよりお問い合わせください。</p>
+        <a href="https://twitter.com/mako0105_web" class="sns contact-sns"><i
+            class="fab fa-twitter fa-2x fa-border"></i></a>
+      </div>
+      <div class="form-wrapper">
+        <form>
+          <!-- <form -->
+          <!-- action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf5pX5Hb_so-VkWUjTRWUci6NIggEBWcRvzys-eVvXwrXlOvA/formResponse" -->
+          <!-- id="form"> -->
+          <div class="box">
+            <label for="name">お名前</label>
+            <input type="text" name="entry.2072092761" id="name" placeholder="" required>
+          </div>
+          <div class="box">
+            <label for="mail">メールアドレス</label>
+            <input type="mail" name="entry.1883385028" id="mail" placeholder="" required>
+          </div>
+          <div class="box">
+            <label for="message">メッセージ</label>
+            <textarea name="entry.726604636" id="" cols="30" rows="10" placeholder="自由記述"></textarea>
+          </div>
+          <input type="submit" class="submit-btn">
+        </form>
+      </div>
+      <p class="end-message">お問い合わせありがとうございました</p>
+      <p class="false-message">送信失敗です</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright MAKO All Right Reserved</p>
+  </footer>
+
+</body>
+
+</html>
